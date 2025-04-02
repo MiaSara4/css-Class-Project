@@ -1,0 +1,275 @@
+body {
+   font-size: 20px;
+   font-family:Arial, sans-serif;
+}
+header{
+    background-image: url('../images/wineheader.jpg');
+    background-position: center;    
+    height: 200px;
+    opacity: .75;
+}
+
+nav{
+    display:flex;
+    list-style-type:none;
+    list-style: none;
+    justify-content:space-around;
+    width:30%;
+    margin-right: 2px;
+    top: 50px;
+    position: relative;}
+
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    color: #4a0303;
+    font-weight: bold; 
+
+}
+
+h2 {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    color: #4a0303;
+    font-weight: bold;
+   
+}
+
+   
+ main{
+     background-color: pink;
+     font-size:25px;
+     position: relative;
+ }
+    
+     
+  p{     
+    line-height: 150%;   
+   }
+    
+ 
+
+.current{
+    width: 70%;
+    float: right;
+}
+
+.skip-link {
+    position: absolute;
+    left: -1000px; 
+    width: 1px;
+    height: 1px;
+   
+  }
+
+.skip-link:focus {
+    position: static; 
+    width: auto;
+    height: auto;
+    padding: 0.5em;
+    
+  }
+
+
+div{ display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: black;
+    justify-content: center;
+    row-gap: normal;
+    justify-content: space-between;
+   
+    position: relative;
+}
+ div:nth-child(even){
+    border: 8px solid black;
+ }  
+    
+  img.resize{
+    border-radius: 40px; 
+    border-style: solid;
+    display: inline;
+     width:175px;
+    height:175px;
+    justify-content: center;
+    padding:shadow;
+}
+   .cabernet{ 
+    background-image: url('../images/cabernetgrapes.jpg');
+    background-repeat: no-repeat;
+    
+    width:175px;
+    height:175px;
+    margin:5px; 
+ 
+    margin-top: -4px;
+    border-style: solid;
+    border-radius:25px ;
+    margin-bottom: 20px;
+    
+    } 
+
+.cabernet:hover{
+    background-image: url('../images/cabernet.jpg');
+    content: '';
+    /* display: inline-block; */
+    position: relative;
+    z-index: 1000;
+    width:175px;
+    height:175px;
+    margin:5px; 
+  
+  
+}
+.malbec{ 
+    background-image: url('../images/malbecgrapes.jpg');
+    background-repeat: no-repeat;
+   
+    width:175px;
+    height:175px;
+    margin:5px; 
+    border-style: solid;
+    margin-bottom: 20px;
+    
+}  
+
+.malbec:hover{
+    background-image: url('../images/malbec.jpg');
+    content: '';
+    border-radius:25px ;
+    position: relative;
+    z-index: 1000;
+    width:175px;
+  height:175px;
+  margin:5px; 
+  
+}  
+
+.merlot{ 
+    background-image: url('../images/merlotgrapes.jpg');
+    background-repeat: no-repeat;
+
+    width:175px;
+    height:175px;
+    margin:5px; 
+    border-style: solid;
+    border-radius:25px ;
+    margin-bottom: 20px;    
+   
+    } 
+
+.merlot:hover{
+    background-image: url('../images/merlot.jpg');
+    content: '';
+    position: relative;
+    z-index: 1000;
+    width:175px;
+    height:175px;
+    margin:5px; 
+  
+} 
+
+
+ .monastrell{ 
+    background-image: url('../images/monstrellgrapes.jpg');
+    background-repeat: no-repeat;
+   
+    width:175px;
+    height:175px;
+    margin:5px; 
+    border-style: solid;
+    margin-bottom: 20px;
+    
+   
+    } 
+
+.monastrell:hover{
+    background-image: url('../images/monstrell.jpg');
+    content: '';
+    position: relative;
+    z-index: 1000;
+    width:175px;
+    height:175px;
+    margin:5px; 
+    
+}
+
+
+.noir{ 
+    background-image: url('../images/noirgrapes.jpg');
+    background-repeat: no-repeat;
+    
+    width:175px;
+    height:175px;
+    margin:5px; 
+    border-style: solid;
+    margin-bottom: 20px;
+    border-radius:25px ;
+    
+   
+    } 
+
+.noir:hover{
+    background-image: url('../images/noir.jpg');
+    content: '';
+    position: relative;
+    z-index: 1000;
+    width:175px;
+    height:175px;
+    margin:5px; 
+    
+}
+
+.grigio{ 
+    background-image: url('../images/grigiograpes.jpg');
+    background-repeat: no-repeat;
+    border-radius:25px ;
+    width:175px;
+    height:175px;
+    margin:5px; 
+    border-style: solid;
+    margin-bottom: 20px;
+
+  } 
+
+.grigio:hover{
+    background-image: url('../images/grigio.jpg');
+    content: '';
+    position: relative;
+    z-index: 1000;
+    width:175px;
+    height:175px;
+    margin:5px; 
+}
+.winetext{
+    text-align: center;
+    width: 120%;
+    float: right;
+    position: relative;
+    top: -120px;
+    font-style: oblique;
+    color: #4a0303;
+   
+    
+}
+.blanc{ 
+    background-image: url('../images/blancgrapes.jpg');
+    background-repeat: no-repeat;
+    width:175px;
+    height:175px;
+    margin:5px; 
+    border-style: solid;
+    margin-bottom: 20px;
+  
+    } 
+
+.blanc:hover{
+    background-image: url('../images/blanc.jpg');
+    content: '';
+    position: relative;
+    z-index: 1000;
+    width:175px;
+    height:175px;
+    margin:5px; 
+}
+
